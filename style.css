@@ -1,0 +1,85 @@
+/* Gaya Umum */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #a7e1f8;
+  margin: 40px;
+  color: #333;
+}
+
+h2 {
+  text-align: center;
+  color: #4caf50;
+}
+
+/* Form */
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #a2baeb;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #9cc7f3;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
+
+/* Tabel */
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 20px auto;
+  background: #fbc8c8;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+/* Link logout */
+a {
+  color: #97e9f2;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
